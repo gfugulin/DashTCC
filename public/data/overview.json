@@ -1,0 +1,677 @@
+{
+  "metadata": {
+    "totalRawResponses": 192,
+    "eligibleResponses": 191,
+    "generatedAt": "2026-10-29T21:55:51.511509",
+    "minSampleSize": 10
+  },
+  "campi": [
+    {
+      "campusId": "higienopolis",
+      "name": "Campus Higienópolis",
+      "city": "São Paulo",
+      "default": true,
+      "image": "/campus/mapa-oficial-higienopolis.webp",
+      "dimensions": {
+        "width": 2480,
+        "height": 1526
+      }
+    }
+  ],
+  "overallGad7": {
+    "n": 191,
+    "suppressed": false,
+    "mean": 10.2,
+    "median": 10.0,
+    "std": 5.54,
+    "boxplot": {
+      "min": 0.0,
+      "q1": 6.0,
+      "median": 10.0,
+      "q3": 15.0,
+      "max": 21.0
+    },
+    "levels": {
+      "minima": 0.1937,
+      "leve": 0.2618,
+      "moderada": 0.2827,
+      "grave": 0.2618
+    },
+    "pct_moderate_severe": 0.5445
+  },
+  "gad7Distribution": [
+    {
+      "score": 0,
+      "count": 3
+    },
+    {
+      "score": 1,
+      "count": 9
+    },
+    {
+      "score": 2,
+      "count": 10
+    },
+    {
+      "score": 3,
+      "count": 7
+    },
+    {
+      "score": 4,
+      "count": 8
+    },
+    {
+      "score": 5,
+      "count": 6
+    },
+    {
+      "score": 6,
+      "count": 6
+    },
+    {
+      "score": 7,
+      "count": 15
+    },
+    {
+      "score": 8,
+      "count": 13
+    },
+    {
+      "score": 9,
+      "count": 10
+    },
+    {
+      "score": 10,
+      "count": 10
+    },
+    {
+      "score": 11,
+      "count": 11
+    },
+    {
+      "score": 12,
+      "count": 18
+    },
+    {
+      "score": 13,
+      "count": 8
+    },
+    {
+      "score": 14,
+      "count": 7
+    },
+    {
+      "score": 15,
+      "count": 13
+    },
+    {
+      "score": 16,
+      "count": 9
+    },
+    {
+      "score": 17,
+      "count": 9
+    },
+    {
+      "score": 18,
+      "count": 5
+    },
+    {
+      "score": 19,
+      "count": 4
+    },
+    {
+      "score": 20,
+      "count": 5
+    },
+    {
+      "score": 21,
+      "count": 5
+    }
+  ],
+  "crossHabits": {
+    "sleepHours": [
+      {
+        "category": "5-6",
+        "n": 93,
+        "pctOfTotal": 0.4869,
+        "levels": {
+          "minima": 0.1613,
+          "leve": 0.2688,
+          "moderada": 0.3441,
+          "grave": 0.2258
+        },
+        "meanGad7": 10.29
+      },
+      {
+        "category": "7-8",
+        "n": 61,
+        "pctOfTotal": 0.3194,
+        "levels": {
+          "minima": 0.3115,
+          "leve": 0.2623,
+          "moderada": 0.2623,
+          "grave": 0.1639
+        },
+        "meanGad7": 8.21
+      },
+      {
+        "category": "<5",
+        "n": 30,
+        "pctOfTotal": 0.1571,
+        "levels": {
+          "minima": 0.0667,
+          "leve": 0.2667,
+          "moderada": 0.1,
+          "grave": 0.5667
+        },
+        "meanGad7": 13.5
+      },
+      {
+        "category": ">8",
+        "n": 7,
+        "pctOfTotal": 0.0366,
+        "levels": {
+          "minima": 0.1429,
+          "leve": 0.1429,
+          "moderada": 0.4286,
+          "grave": 0.2857
+        },
+        "meanGad7": 12.29
+      }
+    ],
+    "sleepQuality": [
+      {
+        "category": "Regular",
+        "n": 83,
+        "pctOfTotal": 0.4346,
+        "levels": {
+          "minima": 0.1446,
+          "leve": 0.3133,
+          "moderada": 0.3012,
+          "grave": 0.241
+        },
+        "meanGad7": 10.42
+      },
+      {
+        "category": "Ruim",
+        "n": 44,
+        "pctOfTotal": 0.2304,
+        "levels": {
+          "minima": 0.1364,
+          "leve": 0.25,
+          "moderada": 0.3182,
+          "grave": 0.2955
+        },
+        "meanGad7": 10.89
+      },
+      {
+        "category": "Boa",
+        "n": 33,
+        "pctOfTotal": 0.1728,
+        "levels": {
+          "minima": 0.3333,
+          "leve": 0.2727,
+          "moderada": 0.1818,
+          "grave": 0.2121
+        },
+        "meanGad7": 8.33
+      },
+      {
+        "category": "Ótima",
+        "n": 18,
+        "pctOfTotal": 0.0942,
+        "levels": {
+          "minima": 0.4444,
+          "leve": 0.1667,
+          "moderada": 0.2778,
+          "grave": 0.1111
+        },
+        "meanGad7": 6.83
+      },
+      {
+        "category": "Péssima",
+        "n": 13,
+        "pctOfTotal": 0.0681,
+        "levels": {
+          "minima": 0.0,
+          "leve": 0.0769,
+          "moderada": 0.3077,
+          "grave": 0.6154
+        },
+        "meanGad7": 15.92
+      }
+    ],
+    "physicalActivity": [
+      {
+        "category": "0 dias",
+        "n": 69,
+        "pctOfTotal": 0.3613,
+        "levels": {
+          "minima": 0.1159,
+          "leve": 0.2464,
+          "moderada": 0.3188,
+          "grave": 0.3188
+        },
+        "meanGad7": 11.58
+      },
+      {
+        "category": "1-2 dias",
+        "n": 53,
+        "pctOfTotal": 0.2775,
+        "levels": {
+          "minima": 0.1509,
+          "leve": 0.283,
+          "moderada": 0.283,
+          "grave": 0.283
+        },
+        "meanGad7": 10.58
+      },
+      {
+        "category": "3-4 dias",
+        "n": 45,
+        "pctOfTotal": 0.2356,
+        "levels": {
+          "minima": 0.3333,
+          "leve": 0.2889,
+          "moderada": 0.2,
+          "grave": 0.1778
+        },
+        "meanGad7": 8.07
+      },
+      {
+        "category": "> 5 dias",
+        "n": 24,
+        "pctOfTotal": 0.1257,
+        "levels": {
+          "minima": 0.25,
+          "leve": 0.2083,
+          "moderada": 0.3333,
+          "grave": 0.2083
+        },
+        "meanGad7": 9.42
+      }
+    ],
+    "nutritionQuality": [
+      {
+        "category": "Média",
+        "n": 99,
+        "pctOfTotal": 0.5183,
+        "levels": {
+          "minima": 0.202,
+          "leve": 0.2626,
+          "moderada": 0.2929,
+          "grave": 0.2424
+        },
+        "meanGad7": 9.96
+      },
+      {
+        "category": "Alta",
+        "n": 41,
+        "pctOfTotal": 0.2147,
+        "levels": {
+          "minima": 0.2195,
+          "leve": 0.2683,
+          "moderada": 0.3415,
+          "grave": 0.1707
+        },
+        "meanGad7": 9.41
+      },
+      {
+        "category": "Baixa",
+        "n": 29,
+        "pctOfTotal": 0.1518,
+        "levels": {
+          "minima": 0.069,
+          "leve": 0.2759,
+          "moderada": 0.2069,
+          "grave": 0.4483
+        },
+        "meanGad7": 12.48
+      },
+      {
+        "category": "Muito baixa",
+        "n": 13,
+        "pctOfTotal": 0.0681,
+        "levels": {
+          "minima": 0.2308,
+          "leve": 0.1538,
+          "moderada": 0.2308,
+          "grave": 0.3846
+        },
+        "meanGad7": 11.31
+      },
+      {
+        "category": "Muito Alta",
+        "n": 9,
+        "pctOfTotal": 0.0471,
+        "levels": {
+          "minima": 0.3333,
+          "leve": 0.3333,
+          "moderada": 0.2222,
+          "grave": 0.1111
+        },
+        "meanGad7": 7.56
+      }
+    ],
+    "studyLoad": [
+      {
+        "category": "1-2 horas",
+        "n": 99,
+        "pctOfTotal": 0.5183,
+        "levels": {
+          "minima": 0.1818,
+          "leve": 0.2828,
+          "moderada": 0.3131,
+          "grave": 0.2222
+        },
+        "meanGad7": 10.16
+      },
+      {
+        "category": "<1 hora",
+        "n": 46,
+        "pctOfTotal": 0.2408,
+        "levels": {
+          "minima": 0.2391,
+          "leve": 0.2174,
+          "moderada": 0.2609,
+          "grave": 0.2826
+        },
+        "meanGad7": 9.96
+      },
+      {
+        "category": "3-4 horas",
+        "n": 31,
+        "pctOfTotal": 0.1623,
+        "levels": {
+          "minima": 0.0968,
+          "leve": 0.2258,
+          "moderada": 0.2903,
+          "grave": 0.3871
+        },
+        "meanGad7": 11.68
+      },
+      {
+        "category": ">4 horas",
+        "n": 15,
+        "pctOfTotal": 0.0785,
+        "levels": {
+          "minima": 0.3333,
+          "leve": 0.3333,
+          "moderada": 0.1333,
+          "grave": 0.2
+        },
+        "meanGad7": 8.2
+      }
+    ],
+    "leisureTime": [
+      {
+        "category": "30-60 minutos",
+        "n": 60,
+        "pctOfTotal": 0.3141,
+        "levels": {
+          "minima": 0.1667,
+          "leve": 0.3,
+          "moderada": 0.3167,
+          "grave": 0.2167
+        },
+        "meanGad7": 10.17
+      },
+      {
+        "category": ">2 horas",
+        "n": 52,
+        "pctOfTotal": 0.2723,
+        "levels": {
+          "minima": 0.2308,
+          "leve": 0.1923,
+          "moderada": 0.3462,
+          "grave": 0.2308
+        },
+        "meanGad7": 10.02
+      },
+      {
+        "category": "1-2 horas",
+        "n": 51,
+        "pctOfTotal": 0.267,
+        "levels": {
+          "minima": 0.2549,
+          "leve": 0.3529,
+          "moderada": 0.1961,
+          "grave": 0.1961
+        },
+        "meanGad7": 8.9
+      },
+      {
+        "category": "<30 minutos",
+        "n": 28,
+        "pctOfTotal": 0.1466,
+        "levels": {
+          "minima": 0.0714,
+          "leve": 0.1429,
+          "moderada": 0.25,
+          "grave": 0.5357
+        },
+        "meanGad7": 13.0
+      }
+    ]
+  },
+  "academic": {
+    "semesters": [
+      {
+        "category": "1º Semestre",
+        "pct": 0.2827,
+        "n": 54
+      },
+      {
+        "category": "3º Semestre",
+        "pct": 0.2408,
+        "n": 46
+      },
+      {
+        "category": "5º Semestre",
+        "pct": 0.2356,
+        "n": 45
+      },
+      {
+        "category": "7º Semestre",
+        "pct": 0.199,
+        "n": 38
+      },
+      {
+        "category": "Prefiro não informar",
+        "pct": 0.0366,
+        "n": 7
+      },
+      {
+        "category": "9º Semestre",
+        "pct": 0.0052,
+        "n": 1
+      }
+    ],
+    "workStatus": [
+      {
+        "category": "Sim",
+        "pct": 0.6806,
+        "n": 130
+      },
+      {
+        "category": "Não",
+        "pct": 0.3194,
+        "n": 61
+      }
+    ],
+    "grades": [
+      {
+        "category": "≥8,0",
+        "pct": 0.4555,
+        "n": 87
+      },
+      {
+        "category": "7,0–7,9",
+        "pct": 0.2461,
+        "n": 47
+      },
+      {
+        "category": "6,0–6,9",
+        "pct": 0.1675,
+        "n": 32
+      },
+      {
+        "category": "Prefiro não informar",
+        "pct": 0.0942,
+        "n": 18
+      },
+      {
+        "category": "<5,9",
+        "pct": 0.0366,
+        "n": 7
+      }
+    ],
+    "absences": [
+      {
+        "category": "Eu não falto nunca",
+        "pct": 0.3455,
+        "n": 66
+      },
+      {
+        "category": "1%-5%",
+        "pct": 0.3141,
+        "n": 60
+      },
+      {
+        "category": "6%-10%",
+        "pct": 0.1361,
+        "n": 26
+      },
+      {
+        "category": "11%-15%",
+        "pct": 0.1204,
+        "n": 23
+      },
+      {
+        "category": "16%-20%",
+        "pct": 0.0524,
+        "n": 10
+      },
+      {
+        "category": ">20%",
+        "pct": 0.0314,
+        "n": 6
+      }
+    ],
+    "courseDrop": [
+      {
+        "category": "Não",
+        "pct": 0.8586,
+        "n": 164
+      },
+      {
+        "category": "Sim",
+        "pct": 0.1414,
+        "n": 27
+      }
+    ],
+    "extracurricular": [
+      {
+        "category": "Sim",
+        "pct": 0.5183,
+        "n": 99
+      },
+      {
+        "category": "Não",
+        "pct": 0.4817,
+        "n": 92
+      }
+    ]
+  },
+  "sampleDistribution": {
+    "byUnit": [
+      {
+        "name": "FCI",
+        "count": 171,
+        "pct": 0.8953
+      },
+      {
+        "name": "CCBS",
+        "count": 11,
+        "pct": 0.0576
+      },
+      {
+        "name": "FDIR",
+        "count": 7,
+        "pct": 0.0366
+      },
+      {
+        "name": "CCL",
+        "count": 2,
+        "pct": 0.0105
+      }
+    ],
+    "byTurno": [
+      {
+        "name": "Noturno",
+        "count": 113,
+        "pct": 0.5916
+      },
+      {
+        "name": "Matutino",
+        "count": 68,
+        "pct": 0.356
+      },
+      {
+        "name": "Integral",
+        "count": 6,
+        "pct": 0.0314
+      },
+      {
+        "name": "Vespertino",
+        "count": 4,
+        "pct": 0.0209
+      }
+    ],
+    "bySemestre": [
+      {
+        "name": "1º Semestre",
+        "count": 54,
+        "pct": 0.2827
+      },
+      {
+        "name": "3º Semestre",
+        "count": 46,
+        "pct": 0.2408
+      },
+      {
+        "name": "5º Semestre",
+        "count": 45,
+        "pct": 0.2356
+      },
+      {
+        "name": "7º Semestre",
+        "count": 38,
+        "pct": 0.199
+      },
+      {
+        "name": "Prefiro não informar",
+        "count": 7,
+        "pct": 0.0366
+      },
+      {
+        "name": "9º Semestre",
+        "count": 1,
+        "pct": 0.0052
+      }
+    ],
+    "byTrabalha": [
+      {
+        "name": "Sim",
+        "count": 130,
+        "pct": 0.6806
+      },
+      {
+        "name": "Não",
+        "count": 61,
+        "pct": 0.3194
+      }
+    ]
+  }
+}

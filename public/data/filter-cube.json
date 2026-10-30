@@ -1,0 +1,1017 @@
+[
+  {
+    "key": "u=*|t=*|w=*",
+    "filters": {
+      "unidade": null,
+      "turno": null,
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 191,
+      "suppressed": false,
+      "mean": 10.2,
+      "median": 10.0,
+      "std": 5.54,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.0,
+        "median": 10.0,
+        "q3": 15.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.1937,
+        "leve": 0.2618,
+        "moderada": 0.2827,
+        "grave": 0.2618
+      },
+      "pct_moderate_severe": 0.5445
+    }
+  },
+  {
+    "key": "u=*|t=*|w=Sim",
+    "filters": {
+      "unidade": null,
+      "turno": null,
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 130,
+      "suppressed": false,
+      "mean": 10.05,
+      "median": 10.0,
+      "std": 5.5,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.25,
+        "median": 10.0,
+        "q3": 14.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.1923,
+        "leve": 0.2692,
+        "moderada": 0.2923,
+        "grave": 0.2462
+      },
+      "pct_moderate_severe": 0.5385
+    }
+  },
+  {
+    "key": "u=*|t=*|w=Não",
+    "filters": {
+      "unidade": null,
+      "turno": null,
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 61,
+      "suppressed": false,
+      "mean": 10.54,
+      "median": 11.0,
+      "std": 5.67,
+      "boxplot": {
+        "min": 1.0,
+        "q1": 6.0,
+        "median": 11.0,
+        "q3": 15.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.1967,
+        "leve": 0.2459,
+        "moderada": 0.2623,
+        "grave": 0.2951
+      },
+      "pct_moderate_severe": 0.5574
+    }
+  },
+  {
+    "key": "u=*|t=Matutino|w=*",
+    "filters": {
+      "unidade": null,
+      "turno": "Matutino",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 68,
+      "suppressed": false,
+      "mean": 10.1,
+      "median": 11.0,
+      "std": 5.4,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.0,
+        "median": 11.0,
+        "q3": 13.5,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.1912,
+        "leve": 0.25,
+        "moderada": 0.3088,
+        "grave": 0.25
+      },
+      "pct_moderate_severe": 0.5588
+    }
+  },
+  {
+    "key": "u=*|t=Matutino|w=Sim",
+    "filters": {
+      "unidade": null,
+      "turno": "Matutino",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 30,
+      "suppressed": false,
+      "mean": 9.87,
+      "median": 11.0,
+      "std": 5.29,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.25,
+        "median": 11.0,
+        "q3": 12.75,
+        "max": 20.0
+      },
+      "levels": {
+        "minima": 0.2,
+        "leve": 0.2333,
+        "moderada": 0.3333,
+        "grave": 0.2333
+      },
+      "pct_moderate_severe": 0.5666
+    }
+  },
+  {
+    "key": "u=*|t=Matutino|w=Não",
+    "filters": {
+      "unidade": null,
+      "turno": "Matutino",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 38,
+      "suppressed": false,
+      "mean": 10.29,
+      "median": 10.5,
+      "std": 5.56,
+      "boxplot": {
+        "min": 1.0,
+        "q1": 5.25,
+        "median": 10.5,
+        "q3": 14.5,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.1842,
+        "leve": 0.2632,
+        "moderada": 0.2895,
+        "grave": 0.2632
+      },
+      "pct_moderate_severe": 0.5527
+    }
+  },
+  {
+    "key": "u=*|t=Noturno|w=*",
+    "filters": {
+      "unidade": null,
+      "turno": "Noturno",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 113,
+      "suppressed": false,
+      "mean": 10.3,
+      "median": 10.0,
+      "std": 5.76,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 7.0,
+        "median": 10.0,
+        "q3": 15.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.2035,
+        "leve": 0.2566,
+        "moderada": 0.2566,
+        "grave": 0.2832
+      },
+      "pct_moderate_severe": 0.5398
+    }
+  },
+  {
+    "key": "u=*|t=Noturno|w=Sim",
+    "filters": {
+      "unidade": null,
+      "turno": "Noturno",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 93,
+      "suppressed": false,
+      "mean": 10.05,
+      "median": 10.0,
+      "std": 5.69,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.0,
+        "median": 10.0,
+        "q3": 15.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.2043,
+        "leve": 0.2688,
+        "moderada": 0.2688,
+        "grave": 0.2581
+      },
+      "pct_moderate_severe": 0.5269
+    }
+  },
+  {
+    "key": "u=*|t=Noturno|w=Não",
+    "filters": {
+      "unidade": null,
+      "turno": "Noturno",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 20,
+      "suppressed": false,
+      "mean": 11.45,
+      "median": 12.0,
+      "std": 6.08,
+      "boxplot": {
+        "min": 1.0,
+        "q1": 7.75,
+        "median": 12.0,
+        "q3": 15.5,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.2,
+        "leve": 0.2,
+        "moderada": 0.2,
+        "grave": 0.4
+      },
+      "pct_moderate_severe": 0.6
+    }
+  },
+  {
+    "key": "u=*|t=Integral|w=*",
+    "filters": {
+      "unidade": null,
+      "turno": "Integral",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 6,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=*|t=Integral|w=Sim",
+    "filters": {
+      "unidade": null,
+      "turno": "Integral",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 4,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=*|t=Integral|w=Não",
+    "filters": {
+      "unidade": null,
+      "turno": "Integral",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=*|t=Vespertino|w=*",
+    "filters": {
+      "unidade": null,
+      "turno": "Vespertino",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 4,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=*|t=Vespertino|w=Sim",
+    "filters": {
+      "unidade": null,
+      "turno": "Vespertino",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 3,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=*|t=Vespertino|w=Não",
+    "filters": {
+      "unidade": null,
+      "turno": "Vespertino",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 1,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FCI|t=*|w=*",
+    "filters": {
+      "unidade": "FCI",
+      "turno": null,
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 171,
+      "suppressed": false,
+      "mean": 10.02,
+      "median": 10.0,
+      "std": 5.5,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.0,
+        "median": 10.0,
+        "q3": 14.5,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.193,
+        "leve": 0.2807,
+        "moderada": 0.2749,
+        "grave": 0.2515
+      },
+      "pct_moderate_severe": 0.5264
+    }
+  },
+  {
+    "key": "u=FCI|t=*|w=Sim",
+    "filters": {
+      "unidade": "FCI",
+      "turno": null,
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 123,
+      "suppressed": false,
+      "mean": 9.92,
+      "median": 10.0,
+      "std": 5.39,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.5,
+        "median": 10.0,
+        "q3": 14.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.187,
+        "leve": 0.2846,
+        "moderada": 0.2927,
+        "grave": 0.2358
+      },
+      "pct_moderate_severe": 0.5285
+    }
+  },
+  {
+    "key": "u=FCI|t=*|w=Não",
+    "filters": {
+      "unidade": "FCI",
+      "turno": null,
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 48,
+      "suppressed": false,
+      "mean": 10.29,
+      "median": 10.0,
+      "std": 5.82,
+      "boxplot": {
+        "min": 1.0,
+        "q1": 5.0,
+        "median": 10.0,
+        "q3": 15.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.2083,
+        "leve": 0.2708,
+        "moderada": 0.2292,
+        "grave": 0.2917
+      },
+      "pct_moderate_severe": 0.5209
+    }
+  },
+  {
+    "key": "u=FCI|t=Matutino|w=*",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Matutino",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 53,
+      "suppressed": false,
+      "mean": 10.08,
+      "median": 11.0,
+      "std": 5.38,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.0,
+        "median": 11.0,
+        "q3": 13.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.1698,
+        "leve": 0.283,
+        "moderada": 0.3019,
+        "grave": 0.2453
+      },
+      "pct_moderate_severe": 0.5472
+    }
+  },
+  {
+    "key": "u=FCI|t=Matutino|w=Sim",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Matutino",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 27,
+      "suppressed": false,
+      "mean": 10.07,
+      "median": 11.0,
+      "std": 4.86,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 7.5,
+        "median": 11.0,
+        "q3": 12.5,
+        "max": 20.0
+      },
+      "levels": {
+        "minima": 0.1481,
+        "leve": 0.2593,
+        "moderada": 0.3704,
+        "grave": 0.2222
+      },
+      "pct_moderate_severe": 0.5926
+    }
+  },
+  {
+    "key": "u=FCI|t=Matutino|w=Não",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Matutino",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 26,
+      "suppressed": false,
+      "mean": 10.08,
+      "median": 9.0,
+      "std": 5.98,
+      "boxplot": {
+        "min": 1.0,
+        "q1": 5.0,
+        "median": 9.0,
+        "q3": 14.5,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.1923,
+        "leve": 0.3077,
+        "moderada": 0.2308,
+        "grave": 0.2692
+      },
+      "pct_moderate_severe": 0.5
+    }
+  },
+  {
+    "key": "u=FCI|t=Noturno|w=*",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Noturno",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 109,
+      "suppressed": false,
+      "mean": 10.04,
+      "median": 10.0,
+      "std": 5.66,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.0,
+        "median": 10.0,
+        "q3": 15.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.211,
+        "leve": 0.2661,
+        "moderada": 0.2569,
+        "grave": 0.2661
+      },
+      "pct_moderate_severe": 0.523
+    }
+  },
+  {
+    "key": "u=FCI|t=Noturno|w=Sim",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Noturno",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 90,
+      "suppressed": false,
+      "mean": 9.83,
+      "median": 10.0,
+      "std": 5.63,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.0,
+        "median": 10.0,
+        "q3": 14.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.2111,
+        "leve": 0.2778,
+        "moderada": 0.2667,
+        "grave": 0.2444
+      },
+      "pct_moderate_severe": 0.5111
+    }
+  },
+  {
+    "key": "u=FCI|t=Noturno|w=Não",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Noturno",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 19,
+      "suppressed": false,
+      "mean": 11.0,
+      "median": 12.0,
+      "std": 5.9,
+      "boxplot": {
+        "min": 1.0,
+        "q1": 7.5,
+        "median": 12.0,
+        "q3": 15.0,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.2105,
+        "leve": 0.2105,
+        "moderada": 0.2105,
+        "grave": 0.3684
+      },
+      "pct_moderate_severe": 0.5789
+    }
+  },
+  {
+    "key": "u=FCI|t=Integral|w=*",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Integral",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 5,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FCI|t=Integral|w=Sim",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Integral",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 3,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FCI|t=Integral|w=Não",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Integral",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FCI|t=Vespertino|w=*",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Vespertino",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 4,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FCI|t=Vespertino|w=Sim",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Vespertino",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 3,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FCI|t=Vespertino|w=Não",
+    "filters": {
+      "unidade": "FCI",
+      "turno": "Vespertino",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 1,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=*|w=*",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": null,
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 7,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=*|w=Sim",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": null,
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 4,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=*|w=Não",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": null,
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 3,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=Matutino|w=*",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": "Matutino",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 4,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=Matutino|w=Sim",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": "Matutino",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=Matutino|w=Não",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": "Matutino",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=Noturno|w=*",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": "Noturno",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=Noturno|w=Sim",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": "Noturno",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 1,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=Noturno|w=Não",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": "Noturno",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 1,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=Integral|w=*",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": "Integral",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 1,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=FDIR|t=Integral|w=Sim",
+    "filters": {
+      "unidade": "FDIR",
+      "turno": "Integral",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 1,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=CCBS|t=*|w=*",
+    "filters": {
+      "unidade": "CCBS",
+      "turno": null,
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 11,
+      "suppressed": false,
+      "mean": 9.18,
+      "median": 10.0,
+      "std": 5.29,
+      "boxplot": {
+        "min": 1.0,
+        "q1": 5.0,
+        "median": 10.0,
+        "q3": 12.5,
+        "max": 16.0
+      },
+      "levels": {
+        "minima": 0.2727,
+        "leve": 0.1818,
+        "moderada": 0.3636,
+        "grave": 0.1818
+      },
+      "pct_moderate_severe": 0.5454
+    }
+  },
+  {
+    "key": "u=CCBS|t=*|w=Sim",
+    "filters": {
+      "unidade": "CCBS",
+      "turno": null,
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 1,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=CCBS|t=*|w=Não",
+    "filters": {
+      "unidade": "CCBS",
+      "turno": null,
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 10,
+      "suppressed": false,
+      "mean": 10.0,
+      "median": 11.0,
+      "std": 4.78,
+      "boxplot": {
+        "min": 2.0,
+        "q1": 6.75,
+        "median": 11.0,
+        "q3": 12.75,
+        "max": 16.0
+      },
+      "levels": {
+        "minima": 0.2,
+        "leve": 0.2,
+        "moderada": 0.4,
+        "grave": 0.2
+      },
+      "pct_moderate_severe": 0.6
+    }
+  },
+  {
+    "key": "u=CCBS|t=Matutino|w=*",
+    "filters": {
+      "unidade": "CCBS",
+      "turno": "Matutino",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 11,
+      "suppressed": false,
+      "mean": 9.18,
+      "median": 10.0,
+      "std": 5.29,
+      "boxplot": {
+        "min": 1.0,
+        "q1": 5.0,
+        "median": 10.0,
+        "q3": 12.5,
+        "max": 16.0
+      },
+      "levels": {
+        "minima": 0.2727,
+        "leve": 0.1818,
+        "moderada": 0.3636,
+        "grave": 0.1818
+      },
+      "pct_moderate_severe": 0.5454
+    }
+  },
+  {
+    "key": "u=CCBS|t=Matutino|w=Sim",
+    "filters": {
+      "unidade": "CCBS",
+      "turno": "Matutino",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 1,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=CCBS|t=Matutino|w=Não",
+    "filters": {
+      "unidade": "CCBS",
+      "turno": "Matutino",
+      "trabalha": "Não"
+    },
+    "metrics": {
+      "n": 10,
+      "suppressed": false,
+      "mean": 10.0,
+      "median": 11.0,
+      "std": 4.78,
+      "boxplot": {
+        "min": 2.0,
+        "q1": 6.75,
+        "median": 11.0,
+        "q3": 12.75,
+        "max": 16.0
+      },
+      "levels": {
+        "minima": 0.2,
+        "leve": 0.2,
+        "moderada": 0.4,
+        "grave": 0.2
+      },
+      "pct_moderate_severe": 0.6
+    }
+  },
+  {
+    "key": "u=CCL|t=*|w=*",
+    "filters": {
+      "unidade": "CCL",
+      "turno": null,
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=CCL|t=*|w=Sim",
+    "filters": {
+      "unidade": "CCL",
+      "turno": null,
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=CCL|t=Noturno|w=*",
+    "filters": {
+      "unidade": "CCL",
+      "turno": "Noturno",
+      "trabalha": null
+    },
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  },
+  {
+    "key": "u=CCL|t=Noturno|w=Sim",
+    "filters": {
+      "unidade": "CCL",
+      "turno": "Noturno",
+      "trabalha": "Sim"
+    },
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    }
+  }
+]

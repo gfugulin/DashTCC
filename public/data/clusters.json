@@ -1,0 +1,120 @@
+{
+  "status": "ready",
+  "message": "Agrupamento não supervisionado K-Medoids (PAM) consolidado a partir do notebook do TCC.",
+  "k_final": 3,
+  "metricas_validacao": {
+    "k": 3,
+    "inertia": 375.5002,
+    "silhouette": 0.1405,
+    "daviesBouldin": 2.0166,
+    "calinskiHarabasz": 36.1399,
+    "dunnIndex": 0.1657
+  },
+  "perfis": [
+    {
+      "id": 0,
+      "name": "Sono reduzido e hábitos intermediários",
+      "n": 79,
+      "pct": 42.47,
+      "color": "#334155",
+      "description": "Estudantes com privação parcial de sono (predominância de 5 a 6 horas por noite) e qualidade regular/ruim, mas que sustentam níveis intermediários de atividade física, alimentação e tempo de lazer.",
+      "gad7": {
+        "mean": 10.23,
+        "median": 10.0,
+        "std": 5.04,
+        "levels": {
+          "minima": 15.19,
+          "leve": 31.65,
+          "moderada": 30.38,
+          "grave": 22.78
+        },
+        "pctModerateSevere": 53.16
+      },
+      "habitsSummary": {
+        "sleep": "74.7% dormem de 5 a 6h e 21.5% menos de 5h; 81% classificam a qualidade como regular ou ruim.",
+        "physicalActivity": "35.4% praticam 1-2 dias/sem e 29.1% praticam 3-4 dias/sem.",
+        "nutrition": "63.3% avaliam a alimentação como média e 24.1% como alta.",
+        "leisure": "36.7% têm entre 1-2h e 34.2% entre 30-60min diários de lazer.",
+        "studyLoad": "51.9% dedicam de 1 a 2 horas diárias aos estudos extraclasse."
+      },
+      "zScores": {
+        "sleepHours": -0.53,
+        "sleepQuality": -0.26,
+        "physicalActivity": 0.26,
+        "nutrition": 0.28,
+        "studyLoad": -0.06,
+        "leisure": 0.05
+      }
+    },
+    {
+      "id": 1,
+      "name": "Maior duração de sono e maior tempo de descanso",
+      "n": 65,
+      "pct": 34.95,
+      "color": "#15803D",
+      "description": "Estudantes com perfil de hábitos mais protetivos: duração de sono adequada (7 a 8 horas ou mais), qualidade percebida positiva, regularidade de exercícios e maior reserva de tempo para lazer diário.",
+      "gad7": {
+        "mean": 8.48,
+        "median": 9.0,
+        "std": 5.93,
+        "levels": {
+          "minima": 33.85,
+          "leve": 18.46,
+          "moderada": 29.23,
+          "grave": 18.46
+        },
+        "pctModerateSevere": 47.69
+      },
+      "habitsSummary": {
+        "sleep": "80.0% dormem 7 a 8h e 10.8% mais de 8h; 60% avaliam a qualidade como boa ou ótima.",
+        "physicalActivity": "30.8% praticam 3-4 dias/sem e 15.4% praticam mais de 5 dias/sem.",
+        "nutrition": "52.3% avaliam a alimentação como média e 36.9% como alta/muito alta.",
+        "leisure": "46.2% desfrutam de mais de 2 horas diárias de lazer/descanso.",
+        "studyLoad": "53.8% dedicam de 1 a 2h e 20.0% de 3 a 4h de estudos diários."
+      },
+      "zScores": {
+        "sleepHours": 1.04,
+        "sleepQuality": 0.81,
+        "physicalActivity": 0.20,
+        "nutrition": 0.31,
+        "studyLoad": 0.07,
+        "leisure": 0.47
+      }
+    },
+    {
+      "id": 2,
+      "name": "Hábitos menos favoráveis e menor tempo de descanso",
+      "n": 42,
+      "pct": 22.58,
+      "color": "#EB0029",
+      "description": "Estudantes expostos a múltiplos fatores de risco comportamentais: acentuada privação de sono (<5h ou 5-6h), sono avaliado como péssimo/ruim, elevado sedentarismo e grave escassez de tempo para descanso.",
+      "gad7": {
+        "mean": 13.17,
+        "median": 14.0,
+        "std": 4.82,
+        "levels": {
+          "minima": 2.38,
+          "leve": 26.19,
+          "moderada": 23.81,
+          "grave": 47.62
+        },
+        "pctModerateSevere": 71.43
+      },
+      "habitsSummary": {
+        "sleep": "61.9% dormem 5 a 6h e 31.0% menos de 5h; 61.9% avaliam a qualidade como ruim ou péssima (0% boa/ótima).",
+        "physicalActivity": "73.8% são completamente sedentários (0 dias) e 26.2% realizam apenas 1-2 dias/sem.",
+        "nutrition": "69.0% autoavaliam a qualidade alimentar como baixa ou muito baixa (0% alta).",
+        "leisure": "45.2% dispõem de menos de 30 minutos diários de descanso e 38.1% de 30-60 minutos.",
+        "studyLoad": "47.6% dedicam 1-2h e 19.0% dedicam 3-4h aos estudos extraclasse."
+      },
+      "zScores": {
+        "sleepHours": -0.61,
+        "sleepQuality": -0.77,
+        "physicalActivity": -0.80,
+        "nutrition": -1.00,
+        "studyLoad": 0.01,
+        "leisure": -0.83
+      }
+    }
+  ]
+}

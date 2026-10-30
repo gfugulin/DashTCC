@@ -1,0 +1,418 @@
+[
+  {
+    "campusId": "higienopolis",
+    "id": "fci",
+    "acronym": "FCI",
+    "name": "Faculdade de Computação e Informática",
+    "buildingIds": [
+      "31"
+    ],
+    "primaryBuildingId": "31",
+    "enabledOnMap": true,
+    "description": "Cursos de Ciência da Computação, Sistemas de Informação, ADS, Banco de Dados e Matemática.",
+    "metrics": {
+      "n": 171,
+      "suppressed": false,
+      "mean": 10.02,
+      "median": 10.0,
+      "std": 5.5,
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.0,
+        "median": 10.0,
+        "q3": 14.5,
+        "max": 21.0
+      },
+      "levels": {
+        "minima": 0.193,
+        "leve": 0.2807,
+        "moderada": 0.2749,
+        "grave": 0.2515
+      },
+      "pct_moderate_severe": 0.5264
+    },
+    "crossHabits": {
+      "sleepHours": [
+        {
+          "category": "5-6",
+          "n": 84,
+          "pctOfTotal": 0.4912,
+          "levels": {
+            "minima": 0.1548,
+            "leve": 0.2976,
+            "moderada": 0.3333,
+            "grave": 0.2143
+          },
+          "meanGad7": 10.12
+        },
+        {
+          "category": "7-8",
+          "n": 57,
+          "pctOfTotal": 0.3333,
+          "levels": {
+            "minima": 0.3158,
+            "leve": 0.2632,
+            "moderada": 0.2632,
+            "grave": 0.1579
+          },
+          "meanGad7": 8.21
+        },
+        {
+          "category": "<5",
+          "n": 23,
+          "pctOfTotal": 0.1345,
+          "levels": {
+            "minima": 0.0435,
+            "leve": 0.3043,
+            "moderada": 0.0435,
+            "grave": 0.6087
+          },
+          "meanGad7": 13.48
+        },
+        {
+          "category": ">8",
+          "n": 7,
+          "pctOfTotal": 0.0409,
+          "levels": {
+            "minima": 0.1429,
+            "leve": 0.1429,
+            "moderada": 0.4286,
+            "grave": 0.2857
+          },
+          "meanGad7": 12.29
+        }
+      ],
+      "physicalActivity": [
+        {
+          "category": "0 dias",
+          "n": 62,
+          "pctOfTotal": 0.3626,
+          "levels": {
+            "minima": 0.1129,
+            "leve": 0.2581,
+            "moderada": 0.3226,
+            "grave": 0.3065
+          },
+          "meanGad7": 11.42
+        },
+        {
+          "category": "1-2 dias",
+          "n": 46,
+          "pctOfTotal": 0.269,
+          "levels": {
+            "minima": 0.1522,
+            "leve": 0.3261,
+            "moderada": 0.2609,
+            "grave": 0.2609
+          },
+          "meanGad7": 10.22
+        },
+        {
+          "category": "3-4 dias",
+          "n": 42,
+          "pctOfTotal": 0.2456,
+          "levels": {
+            "minima": 0.3095,
+            "leve": 0.3095,
+            "moderada": 0.2143,
+            "grave": 0.1667
+          },
+          "meanGad7": 8.14
+        },
+        {
+          "category": "> 5 dias",
+          "n": 21,
+          "pctOfTotal": 0.1228,
+          "levels": {
+            "minima": 0.2857,
+            "leve": 0.1905,
+            "moderada": 0.2857,
+            "grave": 0.2381
+          },
+          "meanGad7": 9.24
+        }
+      ],
+      "leisureTime": [
+        {
+          "category": "30-60 minutos",
+          "n": 56,
+          "pctOfTotal": 0.3275,
+          "levels": {
+            "minima": 0.1786,
+            "leve": 0.3036,
+            "moderada": 0.3393,
+            "grave": 0.1786
+          },
+          "meanGad7": 9.75
+        },
+        {
+          "category": "1-2 horas",
+          "n": 47,
+          "pctOfTotal": 0.2749,
+          "levels": {
+            "minima": 0.2553,
+            "leve": 0.383,
+            "moderada": 0.1702,
+            "grave": 0.1915
+          },
+          "meanGad7": 8.77
+        },
+        {
+          "category": ">2 horas",
+          "n": 46,
+          "pctOfTotal": 0.269,
+          "levels": {
+            "minima": 0.2174,
+            "leve": 0.1957,
+            "moderada": 0.3261,
+            "grave": 0.2609
+          },
+          "meanGad7": 10.24
+        },
+        {
+          "category": "<30 minutos",
+          "n": 22,
+          "pctOfTotal": 0.1287,
+          "levels": {
+            "minima": 0.0455,
+            "leve": 0.1818,
+            "moderada": 0.2273,
+            "grave": 0.5455
+          },
+          "meanGad7": 12.95
+        }
+      ]
+    }
+  },
+  {
+    "campusId": "higienopolis",
+    "id": "fdir",
+    "acronym": "FDIR",
+    "name": "Faculdade de Direito",
+    "buildingIds": [
+      "3",
+      "24"
+    ],
+    "primaryBuildingId": "3",
+    "enabledOnMap": true,
+    "description": "Faculdade de Direito (Prédios 3 e 24).",
+    "metrics": {
+      "n": 7,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    },
+    "crossHabits": {}
+  },
+  {
+    "campusId": "higienopolis",
+    "id": "ccbs",
+    "acronym": "CCBS",
+    "name": "Centro de Ciências Biológicas e da Saúde",
+    "buildingIds": [
+      "50",
+      "38"
+    ],
+    "primaryBuildingId": "50",
+    "enabledOnMap": true,
+    "description": "Centro de Ciências Biológicas e da Saúde (Nutrição e cursos da saúde).",
+    "metrics": {
+      "n": 11,
+      "suppressed": false,
+      "mean": 9.18,
+      "median": 10.0,
+      "std": 5.29,
+      "boxplot": {
+        "min": 1.0,
+        "q1": 5.0,
+        "median": 10.0,
+        "q3": 12.5,
+        "max": 16.0
+      },
+      "levels": {
+        "minima": 0.2727,
+        "leve": 0.1818,
+        "moderada": 0.3636,
+        "grave": 0.1818
+      },
+      "pct_moderate_severe": 0.5454
+    },
+    "crossHabits": {
+      "sleepHours": [
+        {
+          "category": "5-6",
+          "n": 6,
+          "pctOfTotal": 0.5455,
+          "levels": {
+            "minima": 0.1667,
+            "leve": 0.0,
+            "moderada": 0.5,
+            "grave": 0.3333
+          },
+          "meanGad7": 11.83
+        },
+        {
+          "category": "7-8",
+          "n": 3,
+          "pctOfTotal": 0.2727,
+          "levels": {
+            "minima": 0.3333,
+            "leve": 0.3333,
+            "moderada": 0.3333,
+            "grave": 0.0
+          },
+          "meanGad7": 5.67
+        },
+        {
+          "category": "<5",
+          "n": 2,
+          "pctOfTotal": 0.1818,
+          "levels": {
+            "minima": 0.5,
+            "leve": 0.5,
+            "moderada": 0.0,
+            "grave": 0.0
+          },
+          "meanGad7": null
+        }
+      ],
+      "physicalActivity": [
+        {
+          "category": "1-2 dias",
+          "n": 5,
+          "pctOfTotal": 0.4545,
+          "levels": {
+            "minima": 0.2,
+            "leve": 0.0,
+            "moderada": 0.4,
+            "grave": 0.4
+          },
+          "meanGad7": 12.0
+        },
+        {
+          "category": "0 dias",
+          "n": 4,
+          "pctOfTotal": 0.3636,
+          "levels": {
+            "minima": 0.25,
+            "leve": 0.25,
+            "moderada": 0.5,
+            "grave": 0.0
+          },
+          "meanGad7": 8.5
+        },
+        {
+          "category": "3-4 dias",
+          "n": 1,
+          "pctOfTotal": 0.0909,
+          "levels": {
+            "minima": 1.0,
+            "leve": 0.0,
+            "moderada": 0.0,
+            "grave": 0.0
+          },
+          "meanGad7": null
+        },
+        {
+          "category": "> 5 dias",
+          "n": 1,
+          "pctOfTotal": 0.0909,
+          "levels": {
+            "minima": 0.0,
+            "leve": 1.0,
+            "moderada": 0.0,
+            "grave": 0.0
+          },
+          "meanGad7": null
+        }
+      ],
+      "leisureTime": [
+        {
+          "category": ">2 horas",
+          "n": 4,
+          "pctOfTotal": 0.3636,
+          "levels": {
+            "minima": 0.5,
+            "leve": 0.25,
+            "moderada": 0.25,
+            "grave": 0.0
+          },
+          "meanGad7": 6.0
+        },
+        {
+          "category": "1-2 horas",
+          "n": 3,
+          "pctOfTotal": 0.2727,
+          "levels": {
+            "minima": 0.3333,
+            "leve": 0.0,
+            "moderada": 0.6667,
+            "grave": 0.0
+          },
+          "meanGad7": 8.67
+        },
+        {
+          "category": "30-60 minutos",
+          "n": 2,
+          "pctOfTotal": 0.1818,
+          "levels": {
+            "minima": 0.0,
+            "leve": 0.5,
+            "moderada": 0.0,
+            "grave": 0.5
+          },
+          "meanGad7": null
+        },
+        {
+          "category": "<30 minutos",
+          "n": 2,
+          "pctOfTotal": 0.1818,
+          "levels": {
+            "minima": 0.0,
+            "leve": 0.0,
+            "moderada": 0.5,
+            "grave": 0.5
+          },
+          "meanGad7": null
+        }
+      ]
+    }
+  },
+  {
+    "campusId": "higienopolis",
+    "id": "ccl",
+    "acronym": "CCL",
+    "name": "Centro de Comunicação e Letras",
+    "buildingIds": [
+      "49",
+      "48"
+    ],
+    "primaryBuildingId": "49",
+    "enabledOnMap": true,
+    "description": "Centro de Comunicação e Letras (Publicidade, Propaganda e Marketing).",
+    "metrics": {
+      "n": 2,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    },
+    "crossHabits": {}
+  },
+  {
+    "campusId": "higienopolis",
+    "id": "ee",
+    "acronym": "EE",
+    "name": "Escola de Engenharia",
+    "buildingIds": [
+      "6",
+      "16"
+    ],
+    "primaryBuildingId": "6",
+    "enabledOnMap": true,
+    "description": "Escola de Engenharia Mackenzie.",
+    "metrics": {
+      "n": 0,
+      "suppressed": true,
+      "message": "Amostra insuficiente para exibição (n < 10)"
+    },
+    "crossHabits": {}
+  }
+]
