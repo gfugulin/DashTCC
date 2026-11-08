@@ -121,6 +121,17 @@ export type ClusterValidationMetrics = {
   daviesBouldin: number;
   calinskiHarabasz: number;
   dunnIndex: number;
+  ariEstabilidade?: number;
+  kruskalWallis?: {
+    estatisticaH: number;
+    pValor: number;
+    epsilonQuadrado: number;
+  };
+  quiQuadrado?: {
+    chi2: number;
+    pValor: number;
+    grausLiberdade: number;
+  };
 };
 
 export type ClusterProfile = {

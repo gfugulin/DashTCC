@@ -12,9 +12,9 @@ Dashboard interativo para exploração agregada e anônima de hábitos, rotina a
 - **Regra de Supressão Estatística ($n < 10$):**
   - Qualquer unidade acadêmica, estrato ou combinação multidimensional de filtros com menos de 10 participantes tem suas métricas individuais detalhadas bloqueadas (`suppressed: true`), exibindo `"Amostra insuficiente para exibição"`.
 - **Desacoplamento do Clustering Não Supervisionado:**
-  - O GAD-7 **não participa** da formação dos clusters (K-Medoids / PAM).
-  - O número de clusters ($K\text{_FINAL}$) e seus rótulos conceituais continuam sendo definidos analiticamente no notebook via índices de validação (Silhueta, Davies-Bouldin, Dunn, Calinski-Harabasz e estabilidade ARI).
-  - O frontend consome apenas os dados consolidados; enquanto a seleção não for concluída, a seção de perfis opera em estado transparente `pending`.
+  - O GAD-7 **não participa** da formação dos clusters (K-Medoids com método alternado / heurística de Voronoi).
+  - O número de clusters ($K\text{_FINAL} = 3$) e seus rótulos conceituais continuam sendo definidos analiticamente no notebook via índices de validação (Silhueta, Davies-Bouldin, Dunn, Calinski-Harabasz e estabilidade bootstrap ARI = 0.6899).
+  - O frontend consome apenas os dados consolidados em `public/data/clusters.json`.
 
 ---
 
@@ -110,10 +110,10 @@ As marcas oficiais da **Universidade Presbiteriana Mackenzie** e da **Faculdade 
 
 ---
 
-## 7. Integração Consolidada do $K\text{_FINAL} = 3$ de Clusters (K-Medoids / PAM)
+## 7. Integração Consolidada do $K\text{_FINAL} = 3$ de Clusters (K-Medoids / Voronoi)
 
-A análise não supervisionada foi extraída e validada a partir do notebook analítico `tcc_mapa_ansiedade.ipynb`:
-- **Algoritmo:** K-Medoids (PAM) com distância Euclidiana e padronização por Z-Score sobre 6 dimensões comportamentais (Horas de sono, Qualidade do sono, Atividade física, Alimentação adequada, Carga horária de estudo e Tempo de lazer).
+A análise não supervisionada foi extraída e validada a partir do notebook analítico `tcc_mapa_ansiedade 08-11.ipynb`:
+- **Algoritmo:** K-Medoids com método Alternado (heurística de Voronoi / scikit-learn-extra), distância Euclidiana e padronização por Z-Score sobre 6 dimensões comportamentais (Horas de sono, Qualidade do sono, Atividade física, Alimentação adequada, Carga horária de estudo e Tempo de lazer).
 - **Não-contaminação:** A escala GAD-7 não participou do clustering.
 - **Métricas de Validação Estatística ($K=3$):**
   - Inércia: 375.5002
@@ -121,6 +121,10 @@ A análise não supervisionada foi extraída e validada a partir do notebook ana
   - Davies-Bouldin: 2.0166
   - Calinski-Harabasz: 36.1399
   - Índice de Dunn: 0.1657
+  - Estabilidade Bootstrap (ARI médio): 0.6899 (50 repetições com 80% da base)
+- **Testes Inferencias de Hipótese entre Clusters:**
+  - Kruskal-Wallis no escore GAD-7: $H = 16.2374, p = 0.0003$ ($p < 0.001$), $\epsilon^2 = 0.0778$
+  - Teste Qui-Quadrado de independência clínica: $\chi^2 = 26.1502, p = 0.0002$ ($p < 0.001$)
 - **Perfis Formados:**
   1. *Perfil 1 — Sono reduzido e hábitos intermediários* ($n=79$, 42.5%, GAD-7 médio: 10.23, mod+grave: 53.2%)
   2. *Perfil 2 — Maior duração de sono e maior tempo de descanso* ($n=65$, 35.0%, GAD-7 médio: 8.48, mod+grave: 47.7%)

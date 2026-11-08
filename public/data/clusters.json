@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "message": "Agrupamento não supervisionado K-Medoids (PAM) consolidado a partir do notebook do TCC.",
+  "message": "Agrupamento não supervisionado K-Medoids (Método Alternado / Heurística de Voronoi) consolidado a partir do notebook do TCC.",
   "k_final": 3,
   "metricas_validacao": {
     "k": 3,
@@ -8,7 +8,18 @@
     "silhouette": 0.1405,
     "daviesBouldin": 2.0166,
     "calinskiHarabasz": 36.1399,
-    "dunnIndex": 0.1657
+    "dunnIndex": 0.1657,
+    "ariEstabilidade": 0.6899,
+    "kruskalWallis": {
+      "estatisticaH": 16.2374,
+      "pValor": 0.000298,
+      "epsilonQuadrado": 0.0778
+    },
+    "quiQuadrado": {
+      "chi2": 26.1502,
+      "pValor": 0.000209,
+      "grausLiberdade": 6
+    }
   },
   "perfis": [
     {
