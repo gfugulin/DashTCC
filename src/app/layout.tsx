@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: "Mapa da Ansiedade — Campus Higienópolis | UPM",
   description:
     "Análise agregada e anônima de hábitos, rotina acadêmica e sintomas de ansiedade (GAD-7) em estudantes universitários da Universidade Presbiteriana Mackenzie.",
+  authors: [
+    { name: "Bruno Antico Galin" },
+    { name: "Gustavo Fugulin Soares da Silva" },
+  ],
 };
 
 export default function RootLayout({
@@ -85,29 +89,51 @@ export default function RootLayout({
           {children}
         </main>
 
-        {/* Rodapé Ético e Institucional com Assinatura da UPM e FCI */}
+        {/* Rodapé Ético e Institucional com Assinatura da UPM, Autores e Orientadora */}
         <footer className="border-t border-gray-200 bg-white py-6 text-xs text-gray-500 mt-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
-            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
-              <div className="flex items-center gap-2.5">
-                <img
-                  src="/brand/mackenzie-logo.png"
-                  alt="Universidade Presbiteriana Mackenzie"
-                  className="h-6 w-auto object-contain opacity-90"
-                />
-                <div className="h-4 w-[1px] bg-gray-300"></div>
-                <img
-                  src="/brand/fci-logo.png"
-                  alt="Faculdade de Computação e Informática"
-                  className="h-6 w-auto object-contain opacity-90"
-                />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4 pb-4 border-b border-gray-100 text-center md:text-left">
+              <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
+                <div className="flex items-center gap-2.5">
+                  <img
+                    src="/brand/mackenzie-logo.png"
+                    alt="Universidade Presbiteriana Mackenzie"
+                    className="h-7 w-auto object-contain opacity-90"
+                  />
+                  <div className="h-5 w-[1px] bg-gray-300"></div>
+                  <img
+                    src="/brand/fci-logo.png"
+                    alt="Faculdade de Computação e Informática"
+                    className="h-7 w-auto object-contain opacity-90"
+                  />
+                </div>
+                <div className="text-[11px] text-gray-600 leading-snug">
+                  <span className="font-bold text-gray-800">Universidade Presbiteriana Mackenzie</span> • FCI • Campus Higienópolis
+                </div>
               </div>
-              <div className="text-[11px] text-gray-600 leading-snug">
-                <span className="font-bold text-gray-800">Universidade Presbiteriana Mackenzie</span> • Campus Higienópolis • São Paulo/SP
+
+              {/* Assinatura dos Autores e Orientadora */}
+              <div className="text-[11px] text-gray-600 text-center md:text-right space-y-0.5">
+                <div>
+                  <span className="text-gray-500 font-medium">Autores:</span>{" "}
+                  <strong className="text-gray-900 font-semibold">Bruno Antico Galin</strong>{" "}
+                  <span className="text-gray-400">•</span>{" "}
+                  <strong className="text-gray-900 font-semibold">Gustavo Fugulin Soares da Silva</strong>
+                </div>
+                <div>
+                  <span className="text-gray-500 font-medium">Orientadora:</span>{" "}
+                  <strong className="text-[#EB0029] font-semibold">Profª. Dra. Carolina Toledo Ferraz</strong>
+                </div>
               </div>
             </div>
-            <div className="text-[11px] text-gray-400">
-              Proteção Ética e LGPD: supressão amostral para recortes com <span className="font-mono text-gray-700 font-bold">n &lt; 10</span>.
+
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] text-gray-400 text-center sm:text-left">
+              <div>
+                Trabalho de Conclusão de Curso (TCC) • Bacharelado em Ciência da Computação
+              </div>
+              <div>
+                Proteção Ética e LGPD: supressão amostral para recortes com <span className="font-mono text-gray-700 font-bold">n &lt; 10</span>.
+              </div>
             </div>
           </div>
         </footer>

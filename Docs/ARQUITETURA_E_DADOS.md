@@ -1,5 +1,11 @@
 # Documentação do Projeto — Mapa da Ansiedade (TCC UPM)
 
+**Instituição:** Universidade Presbiteriana Mackenzie (UPM)  
+**Unidade Acadêmica:** Faculdade de Computação e Informática (FCI) — Campus Higienópolis  
+**Curso:** Bacharelado em Ciência da Computação  
+**Autores:** Bruno Antico Galin & Gustavo Fugulin Soares da Silva  
+**Orientadora:** Profª. Dra. Carolina Toledo Ferraz  
+
 Dashboard interativo para exploração agregada e anônima de hábitos, rotina acadêmica e sintomas de ansiedade (GAD-7) em estudantes universitários da Universidade Presbiteriana Mackenzie (Campus Higienópolis).
 
 ---

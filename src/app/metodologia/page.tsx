@@ -181,6 +181,37 @@ export default function MetodologiaPage() {
           Nenhum dado individual ou informação de identificação pessoal (PII) é enviado ao navegador. Toda e qualquer combinação de filtros ou unidade acadêmica com menos de 10 respondentes é estritamente suprimida, assegurando conformidade com a LGPD e a ética da pesquisa científica.
         </p>
       </section>
+
+      {/* 6. Ficha Técnica e Autoria Acadêmica */}
+      <section className="bg-white rounded-md border border-gray-200 p-6 sm:p-7 shadow-xs space-y-4">
+        <h2 className="font-bold text-[#1A1A1A] text-base flex items-center gap-2 border-b border-gray-100 pb-2">
+          <IconBook className="w-4 h-4 text-[#EB0029]" />
+          Autoria e Ficha Técnica do Projeto
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+          <div className="p-4 bg-gray-50 rounded border border-gray-200 space-y-2">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-gray-500 block">Pesquisadores Discentes</span>
+            <div className="space-y-1 text-sm font-bold text-gray-900">
+              <p>Bruno Antico Galin</p>
+              <p>Gustavo Fugulin Soares da Silva</p>
+            </div>
+            <p className="text-[11px] text-gray-500 pt-1">
+              Trabalho de Conclusão de Curso (TCC) • Bacharelado em Ciência da Computação<br />
+              Faculdade de Computação e Informática (FCI)
+            </p>
+          </div>
+          <div className="p-4 bg-gray-50 rounded border border-gray-200 space-y-2">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-gray-500 block">Docente Orientadora</span>
+            <div className="text-sm font-bold text-[#EB0029]">
+              Profª. Dra. Carolina Toledo Ferraz
+            </div>
+            <p className="text-[11px] text-gray-500 pt-1">
+              Docente e Pesquisadora da Faculdade de Computação e Informática (FCI)<br />
+              Universidade Presbiteriana Mackenzie — Campus Higienópolis
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
